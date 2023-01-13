@@ -1,7 +1,8 @@
-num = [0,0,0,0,0]
+num = []
 for i in range(0,5):
     print("Enter number", i+1)
-    num[i] = int(input())
+    # num[i] = int(input())
+    num.append(int(input()))
 
 sum = 0
 for i in range(0,5):
